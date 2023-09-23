@@ -1,6 +1,5 @@
 # BOOKS.CSV
 from typing import List
-
 def gcd_two_numbers(a: int, b: int) -> int:
     """
     Calculate the greatest common divisor (GCD) of two positive integers using Euclidean Algorithm.
@@ -8,7 +7,6 @@ def gcd_two_numbers(a: int, b: int) -> int:
     while b:
         a, b = b, a % b
     return a
-
 def gcd_numbers(numbers: List[int]) -> int:
     """
     Calculate the greatest common divisor (GCD) of a list of positive integers using `gcd_two_numbers`.
